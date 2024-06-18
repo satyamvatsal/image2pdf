@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["localhost","3.134.238.10","3.129.111.220","52.15.118.168"]
+ALLOWED_HOSTS = ["localhost","image2pdf-1.onrender.com/",]
 
 
 # Application definition
